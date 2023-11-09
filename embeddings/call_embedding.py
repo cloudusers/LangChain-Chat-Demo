@@ -31,5 +31,5 @@ def get_embedding(embedding_model_name: str):
         try:
             embedding = QianfanEmbeddingsEndpoint(model=embedding_model_name)
         except ValueError:
-            print(f"Unsupported embedding model: {embedding_model_name}")
+            raise ValueError(f"Unsupported embedding model: {embedding_model_name}")
     return embedding
