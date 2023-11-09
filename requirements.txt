@@ -3,5 +3,6 @@ gradio
 openai
 zhipuai
 qianfan
-"unstructured[all-docs]"
+unstructured
 chromadb
+tiktoken
