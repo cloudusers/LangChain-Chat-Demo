@@ -29,7 +29,7 @@ def get_llm(llm_name: str, temperature: float = 0.1):
         try:
             chat_llm = QianfanChatEndpoint(model=llm_name, temperature=temperature)
         except ValueError:
-            print(f"Unsupported language model: {llm_name}")
+            raise ValueError(f"Unsupported language model: {llm_name}")
     return chat_llm
 
 
