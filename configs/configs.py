@@ -1,4 +1,4 @@
-PERSIST_DIR = "knowledge_base/chroma"
+PERSIST_DIR = "knowledge_base/vector_store/chroma"
 """The path to save vector database in your local disk."""
 LLMS = ["chatglm_turbo",
         "gpt-3.5-turbo",
