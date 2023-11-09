@@ -64,24 +64,24 @@ pip install -r requirements.txt
 
 - **在终端中设置**
 
-这里以 `OPENAI-API-KEY` 为例，你需要将 `<your api key>` 替换为你自己的 API key
+这里以 `OPENAI_API_KEY` 为例，你需要将 `<your api key>` 替换为你自己的 API key
 
 Windows PowerShell:
 
 ```shell
-$Env:OPENAI-API-KEY="<your api key>"
+$Env:OPENAI_API_KEY="<your api key>"
 ```
   
 Windows Command:
   
 ```
-set OPENAI-API-KEY=<your api key>
+set OPENAI_API_KEY=<your api key>
 ```
 
 Linux/MacOS
     
 ```shell
-export OPEN-API-KEY="<your api key>"
+export OPENAI_API_KEY="<your api key>"
 ```
 
 - **在 `.env` 中设置**
