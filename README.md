@@ -1,7 +1,7 @@
 # 基于 LangChain 知识库对话 Demo
 
 > 🐦 麻雀虽小五脏俱全。尽量最寻模块化、标准化的方式组织整个项目结构，以便于在此基础上拓展。
-> 可以使用 `OpenAI` (ChatGPT), `Qianfan` (文心一言）, `ZhipuAI` (ChatGLM) 的
+> 可以使用 `OpenAI` (ChatGPT), `Qianfan` (文心一言）, `ZhipuAI` (ChatGLM) 提供的
 > LLM 和 Embedding 模型。当然你也可以参考 [LangChain](https://github.com/langchain-ai/langchain) 
 > 的封装规范继续添加其他模型。项目还使用了 [Chroma](https://docs.trychroma.com/getting-started) 作为向量数据库
 > 并借助 [Gradio](https://www.gradio.app/) 实现 WebUI。这是一个简单的项目，它的贡献点在于提供了一个简单易上手的基于
