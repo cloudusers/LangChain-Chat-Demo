@@ -1,0 +1,7 @@
+langchain
+gradio
+openai
+zhipuai
+qianfan
+"unstructured[all-docs]"
+chromadb
